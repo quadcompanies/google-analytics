@@ -15,6 +15,8 @@ php artisan vendor:publish --provider="QuadCompanies\GoogleAnalytics\GoogleAnaly
 ```
 
 This is the contents of the published config file:
+
+```php
 return [
     /*
      * The Google Analytics Measurement ID (usually starts with 'G-')
